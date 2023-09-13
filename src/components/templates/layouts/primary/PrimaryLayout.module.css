@@ -1,0 +1,49 @@
+/* .primary_layout {
+  background-color: antiquewhite;
+}
+header {
+  background-color: azure;
+}
+.main-body {
+  background-color: floralwhite;
+}
+footer {
+  background-color: darkslategray;
+  color: var(--white);
+}
+
+footer h2 {
+  color: var(--white);
+} */
+
+/* .primary_layout {
+  background-color: antiquewhite;
+}
+.header {
+  background-color: azure;
+}
+.main-body {
+  background-color: floralwhite;
+}
+.footer {
+  background-color: darkslategray;
+  color: var(--white);
+}
+
+.footer h2 {
+  color: var(--white);
+} */
+
+.logo_drawer {
+  padding: 6%;
+  height: 64px;
+  background-color: aqua;
+}
+
+.logo {
+  padding: 4%;
+}
+
+.drawer_icon {
+  margin-left: 30%;
+}
