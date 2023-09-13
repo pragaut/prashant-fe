@@ -1,9 +1,6 @@
 import { ISideNavLayout } from './SideNavLayout';
 
-const base: ISideNavLayout = {
-  role: 'Admin',
-  setState: () => {},
-};
+const base: ISideNavLayout = {};
 
 export const mockSideNavLayoutProps = {
   base,
