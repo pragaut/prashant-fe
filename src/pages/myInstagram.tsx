@@ -5,14 +5,10 @@ const MyInstagram = () => {
     <Box
       id="my Instagram"
       sx={{
-        height: { xs: '20rem', md: '100vh' },
-        display: 'flex',
+        height: { xs: '300', sm: '400' },
+
         width: '100%',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        justifyItems: 'center',
-        // backgroundColor: 'red',
+        m: '1',
       }}
     >
       <Box
@@ -25,15 +21,14 @@ const MyInstagram = () => {
           fontSize: {
             lg: '4rem',
             md: '3rem',
-            xs: '0.6rem',
+            xs: '2rem',
           },
           color: '#000000',
           alignContent: 'center',
           justifyContent: 'center',
           justifyItems: 'center',
+          textAlign: 'center',
           fontFamily: 'IBM Plex Sans',
-          // ml: '35%',
-          // mt: '-35%',
         }}
       >
         My Instagram
@@ -42,55 +37,57 @@ const MyInstagram = () => {
         sx={{
           width: '100%',
           display: 'flex',
-          height: '70%',
+          height: '100%',
+
           // bgcolor: 'yellow',
+          flexDirection: { xs: 'column', sm: 'row' },
         }}
       >
         <Box
           sx={{
-            width: '25%',
+            width: { sx: 300, sm: 400 },
             backgroundImage: 'url(Insta-Post1.png)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             // backgroundColor: 'pink',
-            height: '100%',
+            height: 340,
             m: 1,
           }}
         ></Box>
         <Box
           sx={{
-            width: '25%',
+            width: { sx: 300, sm: 400 },
             backgroundImage: 'url(Insta-Post2.png)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             // backgroundColor: 'White',
-            height: '100%',
+            height: 340,
             m: 1,
           }}
         ></Box>
         <Box
           sx={{
-            width: '25%',
+            width: { sx: 300, sm: 400 },
             backgroundImage: 'url(Insta-Post3.png)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             // backgroundColor: 'Grey',
-            height: '100%',
+            height: 340,
             m: 1,
           }}
         ></Box>
         <Box
           sx={{
-            width: '25%',
+            width: { sx: 300, sm: 400 },
             backgroundImage: 'url(Insta-post4.png)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             // backgroundColor: 'Yellow',
-            height: '100%',
+            height: 340,
             m: 1,
           }}
         ></Box>

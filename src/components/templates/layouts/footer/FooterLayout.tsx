@@ -173,7 +173,7 @@ const Footer = () => {
           >
             <Box
               sx={{
-                width: '5%',
+                width: '20%',
                 backgroundImage: 'url(Facebook-icon.png)',
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
@@ -188,7 +188,7 @@ const Footer = () => {
             ></Box>
             <Box
               sx={{
-                width: '8%',
+                width: '20%',
                 backgroundImage: 'url(Linkedin-icon.png)',
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
@@ -203,7 +203,7 @@ const Footer = () => {
             ></Box>
             <Box
               sx={{
-                width: '10%',
+                width: '20%',
                 backgroundImage: 'url(Twitter-icon.png)',
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
@@ -218,7 +218,7 @@ const Footer = () => {
             ></Box>
             <Box
               sx={{
-                width: '8%',
+                width: '20%',
                 backgroundImage: 'url(Instagram-icon.png)',
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',

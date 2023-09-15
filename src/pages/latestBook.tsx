@@ -4,49 +4,52 @@ import ButtonTemplate from '../components/ui/button/ButtonTemplate';
 const LatestBook = () => {
   return (
     <Box
-      id="latest"
+      id="latestBooks"
       sx={{
-        height: { xs: '20rem', md: '100vh' },
         display: 'flex',
-        width: '100%',
-        alignItems: 'center',
-        // justifyContent: 'center',
+        flexDirection: {
+          xs: 'column',
+          md: 'row',
+        },
       }}
     >
       <Box
         sx={{
-          width: '50%',
-          height: '100%',
+          width: { sx: 100, sm: 500 },
           display: 'flex',
           alignItems: 'center',
+          alignContent: 'center',
+          justifyItems: 'center',
           justifyContent: 'center',
+          m: '5%',
         }}
       >
-        <Box sx={{ width: '65%' }}>
+        <Box sx={{ width: '100%', textAlign: { xs: 'center', sm: 'left' } }}>
           <Box
             component={'h2'}
             sx={{
               fontWeight: 300,
-              wordSpacing: 5,
+
               fontSize: {
-                lg: '3rem',
-                md: '1.5rem',
-                xs: '1rem',
+                lg: '1.2rem',
+                md: '2rem',
+                xs: '1.2rem',
                 color: '#000000',
               },
             }}
           >
-            Jason - The Guardian of Cygnus
+            Jason -<br></br> The Guardian of Cygnus
           </Box>
           <Box
-            component={'h6'}
+            component={'h3'}
             sx={{
               lineHeight: 1.2,
-              pt: 6,
+              wordSpacing: '5',
+              pt: 2,
               fontSize: {
-                lg: '1.25rem',
-                md: '1rem',
-                xs: '1rem',
+                lg: '1.2rem',
+                md: '1.2rem',
+                xs: '.9rem',
                 color: '#555555',
               },
               fontWeight: 200,
@@ -59,29 +62,20 @@ const LatestBook = () => {
           <Box
             sx={{
               width: '100%',
-              // height: '15%',
-              pt: 5,
-              display: 'flex',
-              alignItems: 'left',
-              justifyContent: 'left',
             }}
           >
             <Box
               sx={{
-                width: '65%',
-                bgcolor: 'orange',
-                textAlign: 'center',
+                width: '100%',
+
                 display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                borderRadius: 10,
-                p: 1,
+                justifyContent: { xs: 'center', sm: 'left' },
               }}
             >
               <ButtonTemplate
                 buttonType="normal"
-                variant="text"
-                color="secondary"
+                variant="contained"
+                sx={{ backgroundColor: 'orange', borderRadius: 10, mt: 2 }}
               >
                 Read Excerpt
               </ButtonTemplate>
@@ -91,12 +85,14 @@ const LatestBook = () => {
       </Box>
       <Box
         sx={{
-          width: '50%',
+          width: '100%',
           backgroundImage: 'url(PR-JasonBook.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
-          height: '70%',
+          height: { sm: 350, xs: 340 },
+
+          m: '5%',
         }}
       ></Box>
     </Box>

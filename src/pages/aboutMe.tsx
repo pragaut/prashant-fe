@@ -6,10 +6,11 @@ const AboutMe = () => {
     <Box
       id="about"
       sx={{
-        height: { xs: '20rem', md: '100vh' },
         display: 'flex',
-        width: '100%',
-        alignItems: 'center',
+        flexDirection: {
+          xs: 'column',
+          md: 'row',
+        },
       }}
     >
       <Box
@@ -19,36 +20,33 @@ const AboutMe = () => {
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'backgroundPosition',
-          height: '80%',
+          height: { sm: 500, xs: 340 },
         }}
       ></Box>
 
       <Box
         sx={{
           width: '100%',
-          // height: '100%',
           display: 'flex',
-
           alignItems: 'center',
+          alignContent: 'center',
+          justifyItems: 'center',
           justifyContent: 'center',
+          minHeight: 340,
+          ml: 5,
         }}
       >
-        <Box sx={{ width: '80%' }}>
+        <Box sx={{ width: '100%', textAlign: { xs: 'center', sm: 'left' } }}>
           <Box
-            component={'h2'}
+            component={'h1'}
             sx={{
               fontWeight: 300,
               wordSpacing: 5,
 
-              textAlign: 'left',
-              alignContent: 'left',
-              justifyContent: 'center',
-              justifyItems: 'center',
-
               fontSize: {
                 lg: '2.5rem',
                 md: '1.5rem',
-                xs: '1.5rem',
+                xs: '1rem',
                 color: '#000000',
               },
             }}
@@ -57,22 +55,17 @@ const AboutMe = () => {
             <br></br>My Name is Prashant Rana
           </Box>
           <Box
-            component={'h6'}
+            component={'h2'}
             sx={{
-              lineHeight: 1.5,
-              pt: 4,
-              wordSpacing: 2,
+              lineHeight: 1.4,
+              pt: 1,
+
               fontSize: {
                 lg: '1.2rem',
                 md: '1rem',
-                xs: '1rem',
+                xs: '.7rem',
                 color: '#555555',
               },
-              textAlign: 'left',
-              alignContent: 'center',
-              justifyContent: 'center',
-              justifyItems: 'center',
-
               fontWeight: 200,
             }}
           >
@@ -81,12 +74,7 @@ const AboutMe = () => {
           </Box>
           <Box
             sx={{
-              width: '80%',
-              // height: '15%',
-              pt: 4,
-              // display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
+              width: '100%',
             }}
           >
             {/* <Link
@@ -106,20 +94,17 @@ const AboutMe = () => {
             </Link> */}
             <Box
               sx={{
-                width: '30%',
-                bgcolor: 'orange',
-                textAlign: 'left',
+                width: '100%',
+                // bgcolor: 'orange',
                 display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'left',
-                borderRadius: 15,
+                justifyContent: { xs: 'center', sm: 'left' },
                 // pt: -15,
               }}
             >
               <ButtonTemplate
                 buttonType="normal"
-                variant="text"
-                color="secondary"
+                variant="contained"
+                sx={{ backgroundColor: 'orange', borderRadius: 10, mt: 2 }}
               >
                 View All
               </ButtonTemplate>

@@ -152,6 +152,7 @@ const ButtonTemplate: React.FC<IButtonTemplate> = (props) => {
           onClick={props.action}
           // sx={props.sx}
           sx={{
+            ...props.sx,
             width: props.width,
             justifyContent: props.justifyContent,
           }}

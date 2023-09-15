@@ -56,6 +56,7 @@ const Podcasts = () => {
               backgroundColor: 'black',
             }}
           ></Box>
+
           <Box
             component={'h2'}
             width={'80%'}
@@ -74,6 +75,7 @@ const Podcasts = () => {
           >
             The Zeitgeist Audio...
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -91,6 +93,7 @@ const Podcasts = () => {
           >
             Prashant Rana
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -108,6 +111,7 @@ const Podcasts = () => {
           >
             Cras mattis iudicium purus sit amet fermentum at nos hinc posthac,
           </Box>
+
           <Box
             sx={{
               width: '80%',
@@ -167,6 +171,7 @@ const Podcasts = () => {
           >
             Today . 28min
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -185,6 +190,7 @@ const Podcasts = () => {
           >
             Lorem Ipsum is simply dummy text of the printing
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -203,6 +209,7 @@ const Podcasts = () => {
           >
             _____________________________
           </Box>
+
           <Box
             component={'h2'}
             width={'80%'}
@@ -220,6 +227,7 @@ const Podcasts = () => {
           >
             Today . 28min
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -238,6 +246,7 @@ const Podcasts = () => {
           >
             Lorem Ipsum is simply dummy text of the printing
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -256,6 +265,7 @@ const Podcasts = () => {
           >
             _____________________________
           </Box>
+
           <Box
             component={'h2'}
             width={'80%'}
@@ -273,6 +283,7 @@ const Podcasts = () => {
           >
             Today . 28min
           </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -291,6 +302,61 @@ const Podcasts = () => {
           >
             Lorem Ipsum is simply dummy text of the printing
           </Box>
+
+          <Box
+            component={'h6'}
+            width={'80%'}
+            sx={{
+              lineHeight: 1.4,
+              pt: 1,
+              fontSize: {
+                lg: '1rem',
+                md: '1rem',
+                xs: '0.5rem',
+                color: '#000000',
+              },
+              fontWeight: 100,
+            }}
+          >
+            _____________________________
+          </Box>
+
+          <Box
+            component={'h2'}
+            width={'80%'}
+            sx={{
+              fontWeight: 300,
+              wordSpacing: 5,
+              fontSize: {
+                lg: '1rem',
+                md: '1rem',
+                xs: '0.5rem',
+                color: '#818285',
+              },
+              lineHeight: '2rem',
+            }}
+          >
+            Today . 28min
+          </Box>
+
+          <Box
+            component={'h6'}
+            width={'80%'}
+            sx={{
+              lineHeight: 1.4,
+              pt: 1,
+              fontSize: {
+                lg: '1rem',
+                md: '1rem',
+                xs: '0.5rem',
+                color: '#000000',
+              },
+              fontWeight: 100,
+            }}
+          >
+            Lorem Ipsum is simply dummy text of the printing
+          </Box>
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -359,57 +425,7 @@ const Podcasts = () => {
           >
             _____________________________
           </Box>
-          {/* <Box
-            component={'h2'}
-            width={'80%'}
-            sx={{
-              fontWeight: 300,
-              wordSpacing: 5,
-              fontSize: {
-                lg: '1rem',
-                md: '1rem',
-                xs: '0.5rem',
-                color: '#818285',
-              },
-              lineHeight: '2rem',
-            }}
-          >
-            Today . 28min
-          </Box>
-          <Box
-            component={'h6'}
-            width={'80%'}
-            sx={{
-              lineHeight: 1.4,
-              pt: 1,
-              fontSize: {
-                lg: '1rem',
-                md: '1rem',
-                xs: '0.5rem',
-                color: '#000000',
-              },
-              fontWeight: 100,
-            }}
-          >
-            Lorem Ipsum is simply dummy text of the printing
-          </Box>
-          <Box
-            component={'h6'}
-            width={'80%'}
-            sx={{
-              lineHeight: 1.4,
-              pt: 1,
-              fontSize: {
-                lg: '1rem',
-                md: '1rem',
-                xs: '0.5rem',
-                color: '#000000',
-              },
-              fontWeight: 100,
-            }}
-          >
-            _____________________________
-          </Box> */}
+
           <Box
             component={'h6'}
             width={'80%'}
@@ -468,8 +484,9 @@ const Podcasts = () => {
               ml: '3%',
             }}
           ></Box>
+
           <Box
-            component={'h2'}
+            component={'h3'}
             width={'80%'}
             sx={{
               fontWeight: 300,
@@ -505,7 +522,7 @@ const Podcasts = () => {
               Lorem Ipsum is simply dummy text of the printing
             </Box>
             <Box
-              component={'h6'}
+              component={'h5'}
               width={'80%'}
               sx={{
                 pt: 1,
@@ -550,6 +567,7 @@ const Podcasts = () => {
                   Play
                 </ButtonTemplate>
               </Box>
+
               <Box
                 component={'h6'}
                 width={'100%'}
@@ -604,8 +622,9 @@ const Podcasts = () => {
               ml: '3%',
             }}
           ></Box>
+
           <Box
-            component={'h2'}
+            component={'h3'}
             width={'80%'}
             sx={{
               fontWeight: 300,
@@ -614,10 +633,9 @@ const Podcasts = () => {
                 lg: '1rem',
                 md: '1rem',
                 xs: '0.5rem',
-                color: '#818285',
               },
-              lineHeight: '1rem',
-
+              color: '#818285',
+              lineHeight: '2rem',
               mt: '.8%',
               ml: '3%',
             }}
@@ -627,32 +645,32 @@ const Podcasts = () => {
               component={'h6'}
               width={'80%'}
               sx={{
-                lineHeight: 1.2,
+                lineHeight: 1,
                 pt: 1,
+
                 fontSize: {
                   lg: '1rem',
                   md: '1rem',
                   xs: '0.5rem',
-                  color: '#000000',
                 },
+                color: '#000000',
                 fontWeight: 100,
               }}
             >
               Lorem Ipsum is simply dummy text of the printing
             </Box>
             <Box
-              component={'h6'}
+              component={'h5'}
               width={'80%'}
               sx={{
-                lineHeight: 1.2,
                 pt: 1,
                 fontSize: {
                   lg: '1rem',
                   md: '1rem',
                   xs: '0.5rem',
-                  color: '#555555',
                 },
-                fontWeight: 100,
+                color: '#555555',
+                fontWeight: 300,
               }}
             >
               Prashant Rana
@@ -661,7 +679,7 @@ const Podcasts = () => {
               sx={{
                 width: '70%',
                 // height: '15%',
-                pt: 1,
+
                 display: 'flex',
                 alignItems: 'left',
                 justifyContent: 'left',
@@ -675,8 +693,8 @@ const Podcasts = () => {
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  borderRadius: 10,
-                  p: 1,
+                  borderRadius: 15,
+                  // pt: '2',
                 }}
               >
                 <ButtonTemplate
@@ -687,12 +705,12 @@ const Podcasts = () => {
                   Play
                 </ButtonTemplate>
               </Box>
+
               <Box
                 component={'h6'}
-                width={'80%'}
+                width={'100%'}
                 sx={{
-                  lineHeight: 1.4,
-                  // pt: 1,
+                  pl: 3,
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
@@ -702,11 +720,11 @@ const Podcasts = () => {
                     xs: '0.5rem',
                     color: '#000000',
                   },
-                  // ml: '12%',
+
                   textAlign: 'center',
                   // justifyContent: 'center',
                   // alignItems: 'center',
-                  fontWeight: 100,
+                  fontWeight: 200,
                 }}
               >
                 See More
@@ -741,20 +759,21 @@ const Podcasts = () => {
               ml: '3%',
             }}
           ></Box>
+
           <Box
-            component={'h2'}
+            component={'h3'}
             width={'80%'}
             sx={{
               fontWeight: 300,
               wordSpacing: 5,
               fontSize: {
                 lg: '1rem',
-                md: '.7rem',
+                md: '1rem',
                 xs: '0.5rem',
-                color: '#818285',
               },
-              lineHeight: '3rem',
-              mt: '-6%',
+              color: '#818285',
+              lineHeight: '2rem',
+              mt: '.8%',
               ml: '3%',
             }}
           >
@@ -763,41 +782,41 @@ const Podcasts = () => {
               component={'h6'}
               width={'80%'}
               sx={{
-                lineHeight: 1.4,
+                lineHeight: 1,
                 pt: 1,
+
                 fontSize: {
                   lg: '1rem',
                   md: '1rem',
                   xs: '0.5rem',
-                  color: '#000000',
                 },
+                color: '#000000',
                 fontWeight: 100,
               }}
             >
               Lorem Ipsum is simply dummy text of the printing
             </Box>
             <Box
-              component={'h6'}
+              component={'h5'}
               width={'80%'}
               sx={{
-                lineHeight: 1.4,
                 pt: 1,
                 fontSize: {
                   lg: '1rem',
                   md: '1rem',
                   xs: '0.5rem',
-                  color: '#555555',
                 },
-                fontWeight: 100,
+                color: '#555555',
+                fontWeight: 300,
               }}
             >
               Prashant Rana
             </Box>
             <Box
               sx={{
-                width: '80%',
+                width: '70%',
                 // height: '15%',
-                pt: 2,
+
                 display: 'flex',
                 alignItems: 'left',
                 justifyContent: 'left',
@@ -805,14 +824,14 @@ const Podcasts = () => {
             >
               <Box
                 sx={{
-                  width: '60%',
+                  width: '100%',
                   bgcolor: 'orange',
                   textAlign: 'center',
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  borderRadius: 10,
-                  p: 1,
+                  borderRadius: 15,
+                  // pt: '2',
                 }}
               >
                 <ButtonTemplate
@@ -823,12 +842,12 @@ const Podcasts = () => {
                   Play
                 </ButtonTemplate>
               </Box>
+
               <Box
                 component={'h6'}
-                width={'80%'}
+                width={'100%'}
                 sx={{
-                  lineHeight: 1.4,
-                  // pt: 1,
+                  pl: 3,
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
@@ -838,11 +857,11 @@ const Podcasts = () => {
                     xs: '0.5rem',
                     color: '#000000',
                   },
-                  // ml: '12%',
+
                   textAlign: 'center',
                   // justifyContent: 'center',
                   // alignItems: 'center',
-                  fontWeight: 100,
+                  fontWeight: 200,
                 }}
               >
                 See More
